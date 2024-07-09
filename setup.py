@@ -14,6 +14,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     install_requires=[],
+    entry_points={"zmath_plugins": ["zmathsquare = zmathsquare"]},
     keywords=["python", "math", "square", "square-root"],
     classifiers=[
         "mathematics",
