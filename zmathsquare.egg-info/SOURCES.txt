@@ -1,9 +1,0 @@
-setup.py
-zmathsquare/__init__.py
-zmathsquare/sq.py
-zmathsquare.egg-info/PKG-INFO
-zmathsquare.egg-info/SOURCES.txt
-zmathsquare.egg-info/dependency_links.txt
-zmathsquare.egg-info/top_level.txt
-zmathsquare/extras/__init__.py
-zmathsquare/extras/sqroot.py
