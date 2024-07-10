@@ -12,9 +12,11 @@ setup(
     author_email="bkvaiude@gmail.com",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
-    packages=find_packages(),
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
+    namespace_packages=["zmath"],
     install_requires=[],
-    entry_points={"zmath_plugins": ["zmathsquare = zmathsquare"]},
+    entry_points={"zmath_plugins": ["zmathsquare = zmath.zmathsquare"]},
     keywords=["python", "math", "square", "square-root"],
     classifiers=[
         "mathematics",
